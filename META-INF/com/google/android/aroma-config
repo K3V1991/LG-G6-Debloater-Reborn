@@ -1,0 +1,127 @@
+ini_set("force_colorspace","rgba");
+fontresload("0", "ttf/Roboto-Regular.ttf", "13");
+fontresload("1", "ttf/Roboto-Regular.ttf", "20");
+theme("g6");
+
+ini_set("rom_version", "v1");
+
+
+ini_set("text_ok", "Ok");
+ini_set("text_next", "Next");
+ini_set("text_back", "Back");
+ini_set("text_yes", "Yes");
+ini_set("text_no", "No");
+ini_set("text_quit", "Installation abort");
+ini_set("text_quit_msg", "Exit Installer?");
+
+
+viewbox(
+"LG G6 Debloater ",
+"\n"+
+"<b>Version</b>\t: "+ini_get("rom_version")+"\n\n\n"+
+"<b>NFO</b>\t: <#FF0000> <b>Be aware that neither I nor XDA can be held responsible if you soft-brick your Phone by using this Software</b></#>\n\n
+<b>Make Backups before use</b>",
+"icons/logo"
+);
+
+
+checkbox(
+"LG G6 Debloater",
+"All Apps unchecked by Default",
+"icons/logo",
+"lg.prop",
+
+"LG Apps", "", 2,
+"LG 360 Video Wallpaper", "", 0,
+"LG 360 Wallpaper", "", 0,
+"LG Account", "", 0,
+"LG Amazon Assistant", "", 0,
+"LG CB-Messages", "", 0,
+"LG Calendar", "", 0,
+"LG Clock", "", 0,
+"LG Email", "", 0,
+"LG Exchange", "", 0,
+"LG Friends Manager", "", 0,
+"LG Gallery", "", 0,
+"LG Health", "", 0,
+"LG HiFi Recorder", "", 0,
+"LG Memo+", "", 0,
+"LG MirrorDrive", "", 0,
+"LG Music Share", "", 0,
+"LG Music Widget", "", 0,
+"LG Music", "", 0,
+"LG Partner Bookmarks Provider", "", 0,
+"LG Quick Help", "", 0,
+"LG Radio", "", 0,
+"LG Smart Settings", "", 0,
+"LG Smart Share", "", 0,
+"LG Smart World", "", 0,
+"LG Spring Cleaning", "", 0,
+"LG VR Player", "", 0,
+"LG Video Studio", "", 0,
+"LG Video", "", 0,
+"LG Weather", "", 0,
+
+
+"", "", 2);
+
+checkbox(
+"LG G6 Debloater",
+"All Apps unchecked by Default",
+"icons/logo",
+"gg.prop",
+
+"Google Apps", "", 2,
+"Google Calculator", "", 0,
+"Google Chrome", "", 0,
+"Google Docs", "", 0,
+"Google Drive", "", 0,
+"Google Duo", "", 0,
+"Google Gmail", "", 0,
+"Google Google Pay", "", 0,
+"Google Maps", "", 0,
+"Google Play Movies", "", 0,
+"Google OK Google Enrollment", "", 0,
+"Google Photos", "", 0,
+"Google Play Music", "", 0,
+"Google Play Store", "", 0,
+"Google Search", "", 0,
+"Google Sheets", "", 0,
+"Google Slides", "", 0,
+"Google Text-to-Speech", "", 0,
+"Google TalkBack", "", 0,
+"Google YouTube", "", 0,
+
+
+"", "", 2);
+
+checkbox(
+"LG G6 Debloater",
+"All Apps unchecked by Default",
+"icons/logo",
+"ot.prop",
+
+"Other Apps", "", 2,
+"Android Easter Egg", "", 0,
+"Bookmark Provider", "", 0,
+"CloudHub", "", 0,
+"Collage Wallpapers", "", 0,
+"Documents UI", "", 0,
+"Download Provider UI", "", 0,
+"Evernote", "", 0,
+"Facebook Installer & App Manager", "", 0,
+"HTML Viewer", "", 0,
+"My Places", "", 0,
+"PromoHelper", "", 0,
+"Smart Doctor WebView", "", 0,
+
+
+"", "", 2);
+
+setvar("installer_title","All backuped & ready?");
+
+if confirm("LG G6 Debloater", getvar("installer_title") + "\n\nDebloating?", "@confirm")=="no" then back(1);
+endif;
+
+
+install("LG G6 Debloater", "Apps unistalling. Please wait...", "@debloat");

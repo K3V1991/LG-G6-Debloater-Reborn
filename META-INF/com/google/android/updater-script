@@ -1,0 +1,323 @@
+run_program("/sbin/mount", "-t", "auto", "/system"); ui_print("@Debloating begins");
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.1")=="1")  then ui_print("Delete LG 360 Video Wallpaper...");
+delete_recursive("/system/priv-app/LG360VideoWallpaper");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.2")=="1")  then ui_print("Delete LG 360 Wallpaper...");
+delete_recursive("/system/priv-app/LG360Wallpaper");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.3")=="1")  then ui_print("Delete LG Account...");
+delete_recursive("/system/app/LGAccount");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.4")=="1")  then ui_print("Delete LG Amazon Assistant...");
+delete_recursive("/system/app/LGAmazonAssistant");
+delete_recursive("/system/app/LGAmazonAttribution");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.5")=="1")  then ui_print("Delete LG CB-Messages...");
+delete_recursive("/system/priv-app/LGCb");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.6")=="1")  then ui_print("Delete LG Calendar...");
+delete_recursive("/system/priv-app/LGCalendar");
+delete_recursive("/system/priv-app/LGCalendarProvider");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.7")=="1")  then ui_print("Delete LG Clock...");
+delete_recursive("/system/priv-app/LGAlarmClock");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.8")=="1")  then ui_print("Delete LG Email...");
+delete_recursive("/system/priv-app/LGEmail");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.9")=="1")  then ui_print("Delete LG Exchange...");
+delete_recursive("/system/priv-app/LGExchange");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.10")=="1")  then ui_print("Delete LG Friends Manager...");
+delete_recursive("/system/priv-app/LGFriendsManager");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.11")=="1")  then ui_print("Delete LG Gallery...");
+delete_recursive("/system/priv-app/LGGallery");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.12")=="1")  then ui_print("Delete LG Health...");
+delete_recursive("/system/priv-app/LGMyWellness");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.13")=="1")  then ui_print("Delete LG HiFi Recorder...");
+delete_recursive("/system/priv-app/LGHiFiRecorder");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.14")=="1")  then ui_print("Delete LG Memo+...");
+delete_recursive("/system/priv-app/LGQMemoplus");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.15")=="1")  then ui_print("Delete LG MirrorDrive...");
+delete_recursive("/system/app/MirrorLinkServer");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.16")=="1")  then ui_print("Delete LG Music Share...");
+delete_recursive("/system/app/LGMusicShare");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.17")=="1")  then ui_print("Delete LG Music Widget...");
+delete_recursive("/system/priv-app/LGMusicWidget");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.18")=="1")  then ui_print("Delete LG Music...");
+delete_recursive("/system/priv-app/LGMusic");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.19")=="1")  then ui_print("Delete LG Partner Bookmarks Provider...");
+delete_recursive("/system/priv-app/LGPartnerBookmarksProvider");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.20")=="1")  then ui_print("Delete LG Quick Help...");
+delete_recursive("/system/priv-app/opt/LGQHelp");
+delete_recursive("/system/priv-app/opt/LGQHelpService");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.21")=="1")  then ui_print("Delete LG Radio...");
+delete_recursive("/system/priv-app/LGFmRadio");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.22")=="1")  then ui_print("Delete LG Smart Settings...");
+delete_recursive("/system/priv-app/LGIFTTT");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.23")=="1")  then ui_print("Delete LG Smart Share...");
+delete_recursive("/system/app/SmartShare");
+delete_recursive("/system/app/SmartShareProvider");
+delete_recursive("/system/priv-app/LGSmartSharePush");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.24")=="1")  then ui_print("Delete LG Smart World...");
+delete_recursive("/system/priv-app/LGSmartWorld");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.25")=="1")  then ui_print("Delete LG Spring Cleaning...");
+delete_recursive("/system/app/LGSpringCleaning");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.26")=="1")  then ui_print("Delete LG VR Player...");
+delete_recursive("/system/priv-app/LGVRPlayer");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.27")=="1")  then ui_print("Delete LG Video Studio...");
+delete_recursive("/system/priv-app/LGVideoStudio");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.28")=="1")  then ui_print("Delete LG Video...");
+delete_recursive("/system/priv-app/LGVideo");
+endif;
+
+if
+(file_getprop("/tmp/aroma/lg.prop","item.1.29")=="1")  then ui_print("Delete LG Weather...");
+delete_recursive("/system/priv-app/LGWeather");
+delete_recursive("/system/priv-app/LGWeatherService");
+delete_recursive("/system/priv-app/LGWeatherTheme");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.1")=="1")  then ui_print("Delete Google Calculator...");
+delete_recursive("/system/app/CalculatorGoogle");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.2")=="1")  then ui_print("Delete Google Chrome...");
+delete_recursive("/system/app/Chrome");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.3")=="1")  then ui_print("Delete Google Docs...");
+delete_recursive("/system/app/EditorsDocs");
+delete_recursive("/system/app/EditorsDocsStub");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.4")=="1")  then ui_print("Delete Google Drive...");
+delete_recursive("/system/app/Drive");
+delete_recursive("/system/app/DriveActivator");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.5")=="1")  then ui_print("Delete Google Duo...");
+delete_recursive("/system/app/Duo");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.6")=="1")  then ui_print("Delete Google Gmail...");
+delete_recursive("/system/app/Gmail1");
+delete_recursive("/system/app/Gmail2");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.7")=="1")  then ui_print("Delete Google Pay...");
+delete_recursive("/system/app/GooglePay");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.8")=="1")  then ui_print("Delete Google Maps...");
+delete_recursive("/system/app/Maps");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.9")=="1")  then ui_print("Delete Google Play Movies...");
+delete_recursive("/system/app/Videos");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.10")=="1")  then ui_print("Delete Google OK Google Enrollment...");
+delete_recursive("/system/priv-app/HotwordEnrollmentOKGoogleWCD9335");
+delete_recursive("/system/priv-app/HotwordEnrollmentTGoogleWCD9335");
+delete_recursive("/system/priv-app/HotwordEnrollmentXGoogleWCD9335");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.11")=="1")  then ui_print("Delete Google Photos...");
+delete_recursive("/system/app/Photos");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.12")=="1")  then ui_print("Delete Google Play Music...");
+delete_recursive("/system/app/Music1");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.13")=="1")  then ui_print("Delete Google Play Store...");
+delete_recursive("/system/priv-app/Phonesky");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.14")=="1")  then ui_print("Delete Google Search...");
+delete_recursive("/system/priv-app/Velvet");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.15")=="1")  then ui_print("Delete Google Sheets...");
+delete_recursive("/system/app/EditorsSheets");
+delete_recursive("/system/app/EditorsSheetsStub");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.16")=="1")  then ui_print("Delete Google Slides...");
+delete_recursive("/system/app/EditorsSlides");
+delete_recursive("/system/app/EditorsSlidesStub");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.17")=="1")  then ui_print("Delete Google Text-to-Speech...");
+delete_recursive("/system/app/GoogleTTS");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.18")=="1")  then ui_print("Delete Google TalkBack...");
+delete_recursive("/system/app/talkback");
+endif;
+
+if
+(file_getprop("/tmp/aroma/gg.prop","item.1.19")=="1")  then ui_print("Delete Google YouTube...");
+delete_recursive("/system/app/YouTube");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.1")=="1")  then ui_print("Delete Android Easter Egg...");
+delete_recursive("/system/app/EasterEgg");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.2")=="1")  then ui_print("Delete Bookmark Provider...");
+delete_recursive("/system/app/BookmarkProvider");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.3")=="1")  then ui_print("Delete CloudHub...");
+delete_recursive("/system/priv-app/CloudHub");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.4")=="1")  then ui_print("Delete Collage Wallpapers...");
+delete_recursive("/system/priv-app/CollageWallpapers");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.5")=="1")  then ui_print("Delete Documents UI...");
+delete_recursive("/system/priv-app/DocumentsUI");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.6")=="1")  then ui_print("Delete Download Provider UI...");
+delete_recursive("/system/app/DownloadProviderUi");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.7")=="1")  then ui_print("Delete Evernote...");
+delete_recursive("/system/priv-app/Evernote");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.8")=="1")  then ui_print("Delete Facebook Installer & App Manager...");
+delete_recursive("/system/app/Facebook_AppManager");
+delete_recursive("/system/priv-app/Facebook_Installer");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.9")=="1")  then ui_print("Delete HTML Viewer...");
+delete_recursive("/system/app/HTMLViewer");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.10")=="1")  then ui_print("Delete My Places...");
+delete_recursive("/system/priv-app/MyPlacesEngine");
+delete_recursive("/system/priv-app/MyPlacesSettings");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.11")=="1")  then ui_print("Delete PromoHelper...");
+delete_recursive("/system/priv-app/PromoHelper");
+endif;
+
+if
+(file_getprop("/tmp/aroma/ot.prop","item.1.12")=="1")  then ui_print("Delete Smart Doctor WebView...");
+delete_recursive("/system/priv-app/SmartDoctorWebView");
+endif;
+
+ui_print("Cleaning Cache and Dalvik-cache");
+delete_recursive("/cache");
+delete_recursive("/data/dalvik-cache");
+
+unmount("/system"); ui_print("@Complete");
