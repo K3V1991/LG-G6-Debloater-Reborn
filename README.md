@@ -6,19 +6,11 @@
 * Make Backups before use
 
 
-
-
-
 ## Requirements:
 * TWRP
-* LG_G6_Debloater_Reborn.zip
 
 
-
-
-## App List:
-
-LG Apps:
+## LG Apps:
 * LG 360 Video Wallpaper
 * LG 360 Wallpaper
 * LG Account
@@ -50,7 +42,7 @@ LG Apps:
 * LG Weather
 
 
-Google Apps:
+## Google Apps:
 * Google Calculator
 * Google Chrome
 * Google Docs
@@ -72,7 +64,7 @@ Google Apps:
 * Google YouTube
 
 
-Other Apps:
+## Other Apps:
 * Android Easter Egg
 * Bookmark Provider
 * CloudHub
