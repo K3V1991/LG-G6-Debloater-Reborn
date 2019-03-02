@@ -3,7 +3,7 @@ fontresload("0", "ttf/Roboto-Regular.ttf", "13");
 fontresload("1", "ttf/Roboto-Regular.ttf", "20");
 theme("g6");
 
-ini_set("rom_version", "v1");
+ini_set("rom_version", "v3");
 
 
 ini_set("text_ok", "Ok");
@@ -106,13 +106,11 @@ checkbox(
 "Bookmark Provider", "", 0,
 "CloudHub", "", 0,
 "Collage Wallpapers", "", 0,
-"Documents UI", "", 0,
 "Download Provider UI", "", 0,
 "Evernote", "", 0,
 "Facebook Installer & App Manager", "", 0,
 "HTML Viewer", "", 0,
 "My Places", "", 0,
-"PromoHelper", "", 0,
 "Smart Doctor WebView", "", 0,
 
 
