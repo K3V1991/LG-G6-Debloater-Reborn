@@ -25,7 +25,7 @@
 * LG Health
 * LG HiFi Recorder
 * LG Memo+
-* LG MirrorDrive
+* LG MirrorLink
 * LG Music Share
 * LG Music Widget
 * LG Music
