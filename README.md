@@ -69,11 +69,9 @@
 * Bookmark Provider
 * CloudHub
 * Collage Wallpapers
-* Documents UI
 * Download Provider UI
 * Evernote
 * Facebook Installer & App Manager
 * HTML Viewer
 * My Places
-* PromoHelper
 * Smart Doctor WebView
