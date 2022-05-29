@@ -1,14 +1,17 @@
-## NFO:
-* Ladies & Gentlemen i introducing my first LG G6 Debloater Reborn
-* Removed some scary Things
-* Added Apps
-* Clears the Cache & Dalvik-cache automatically
-* Make Backups before use
+<p align="center"><img src="https://i.ibb.co/XsjTxDb/LG-G6-Debloater.png" width="200"></a>
+<h1 align="center"><b>LG G6 Debloater Reborn</b></h1>
+<h4 align="center">This flashable Zip debloates unnecessary Apps from your Device</h4>
+<br />
 
+## NFO:
+* Apps chooseable (AROMA Installer)
+* Clears the Cache & Dalvik-cache automatically
+
+## Caution:
+* Make Backups before use
 
 ## Requirements:
 * TWRP
-
 
 ## LG Apps:
 * LG 360 Video Wallpaper
@@ -41,7 +44,6 @@
 * LG Video
 * LG Weather
 
-
 ## Google Apps:
 * Google Calculator
 * Google Chrome
@@ -62,7 +64,6 @@
 * Google Text-to-Speech
 * Google TalkBack
 * Google YouTube
-
 
 ## Other Apps:
 * Android Easter Egg
