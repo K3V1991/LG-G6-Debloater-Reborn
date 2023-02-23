@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.ibb.co/XsjTxDb/LG-G6-Debloater.png" width="200"></a>
+<p align="center"><img src="https://github.com/K3V1991/LG-G6-Debloater-Reborn/blob/master/LG-G6-Debloater.png" width="200"></a>
 <h1 align="center"><b>LG G6 Debloater Reborn</b></h1>
 <h4 align="center">This flashable Zip debloates unnecessary Apps from your Device</h4>
 <br />
